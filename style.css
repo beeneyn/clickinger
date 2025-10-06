@@ -6,6 +6,11 @@ body {
     color: white;
 }
 
+body {
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, #FFFFFF 1px, rgba(0, 0, 0, 0) 1px);
+}
+
 .Counter {
     font-size: 100px;
     margin: 0%;
@@ -59,4 +64,13 @@ button {
     padding-bottom: 20px;
     margin: 20px;
     border-radius: 25px;
+}
+
+.flexdiv {
+    display: flex;
+    margin-right: 50px;
+}
+
+.moneycountertext {
+    color: lightgreen;
 }

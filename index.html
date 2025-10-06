@@ -10,14 +10,19 @@
         <p>Money per Click: <span id="mpc">1</span></p>
         <p>Money per Second: <span id="mps">0</span></p>
     </div>
-    <div class="container-sm counterdiv">
+    <div class="flexdiv">
+        <div class="container-sm counterdiv">
+        <p>clicks</p>
         <p class="Counter" id="counter"><span id="clicks">0</span></p>
     </div>
     <div class="container-sm counterdiv">
+        <p class="moneycountertext">Money</p>
         <p class="MoneyCounter" id="counter"><span id="money">0</span></p>
     </div>
+    </div>
     <button onclick="clickCookie()">Click me!</button>
-    <button>Upgrades</button>
+    <button>Shop</button>
+    <button>Achievements</button>
       <div class="shop" id="shopContainer">
     <h2>Shop</h2>
     <button onclick="upgradeMPC()">Touch Grass (Cost: <span id="mpcCost">10</span> money)</button>

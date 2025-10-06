@@ -22,6 +22,11 @@ div {
     padding-bottom: 20px;
     margin: 20px;
     border-radius: 25px;
+    box-shadow: 0 9px #666;
+    border-color: #666;
+    border-width: 5px;
+    border-style: solid;
+    opacity: 0.5;
 }
 
 .counterdiv {
@@ -85,13 +90,11 @@ button {
   background-color: #04AA6D;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px 3e8e41;
+  box-shadow: 0 9px #3e8e41;
 }
-
-.theclickerbutton:hover {background-color: #3e8e41}
 
 .theclickerbutton:active {
   background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  box-shadow: 0 5px #3e8e41;
   transform: translateY(4px);
 }
